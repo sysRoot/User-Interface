@@ -162,10 +162,12 @@ margin-right: 0;
 }
 
 .middle-img {
-margin-top: 45px;
-display: inline-block;
-width: 876px;
-height: 182px;	
+	display: block;
+	margin: 45px auto 0;	
+	}
+
+article section.section-top, article section.section-bottom {
+	text-align: center;
 }
 
 article section.section-bottom {
@@ -179,12 +181,11 @@ display: inline-block;
 margin-right: 12px;
 }
 
-address.contact {
+.contact {
 margin-top: 57px;
 padding: 39px 10px 0;
 }
-
-address.contact p {
+.contact p {
 margin: 20px 0;
 }
 
