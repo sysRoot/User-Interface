@@ -133,16 +133,18 @@ section.beginning.container img {
 button {
 background: white;
 vertical-align: top;
-margin-top: 6px;
-padding: 8px 44px;
+margin-top: 5px;
+padding: 10px 40px;
 font-size: 17px;
 border: 1px solid black;
 }
 
 article {
 border-top: 1px solid black;
+border-bottom: 1px solid black;
 margin-top: 76px;
 padding-top: 39px;
+padding-bottom: 39px;
 }
 
 article section.section-top {
@@ -177,12 +179,12 @@ display: inline-block;
 margin-right: 12px;
 }
 
-.contact {
+address.contact {
 margin-top: 57px;
 padding: 39px 10px 0;
 }
 
-.contact p {
+address.contact p {
 margin: 20px 0;
 }
 
