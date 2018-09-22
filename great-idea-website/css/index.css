@@ -167,32 +167,47 @@ h2 {
 	width: 1000px;
 	margin: 20px auto;
 }
-header {
-	position: fixed;
-	top:0;
-}
-header nav {
-	display: inline-block;
-	position: absolute;
-	left: 400px;
-	vertical-align: top;
-	margin-top: 17px;
+.header {
+    position: fixed;
+    background-color: ghostwhite;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
-header nav a {
-	display: inline-block;
-	margin-left: 60px;
-	font-size: 16px;
-	color: gray;
-	text-decoration: none;
+.header header {
+    position: relative;
+    width: 880px;
+    margin: 0 auto;
 }
 
-.logo {
-	margin-top: -35px;
-	position: absolute;
-	top: 30px;
-	right: -450px;
+.header header nav {
+    display: inline-block;
+    margin: 10px 0;
 }
+
+.header header nav li {
+    display: inline;
+    padding: 0 55px 0 0;
+}
+
+.header header nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header header nav li a:hover {
+    text-decoration: underline;
+}
+
+.header header .logo {
+    position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
 
 .transform {
 	display: inline-block;
