@@ -241,6 +241,7 @@ article {
 	margin-top: 76px;
 	padding-top: 39px;
 	padding-bottom: 39px;
+
 }
 
 article section.section-top {
@@ -264,7 +265,8 @@ article section.section-top section:last-child {
 
 article section.section-top,
 article section.section-bottom {
-	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 article section.section-bottom {
