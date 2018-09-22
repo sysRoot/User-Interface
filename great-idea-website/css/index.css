@@ -162,6 +162,10 @@ h2 {
 	font-size: 2em;
 }
 
+h2, h3 {
+	font-family: 'Dancing Script', sans-serif;
+}
+
 .container {
 	width: 1000px;
 	margin: 20px auto;
