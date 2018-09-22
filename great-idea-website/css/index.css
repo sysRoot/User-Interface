@@ -314,6 +314,7 @@ footer {
 #kitty-ipsum-1, #kitty-ipsum-2, #kitty-ipsum-3, #kitty-ipsum-4 {
 	margin-top: 50px;
 	font-family: 'Dancing Script', sans-serif;
+	font-size: 20px;
 }
 
 .cat-img {
