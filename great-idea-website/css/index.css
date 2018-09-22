@@ -158,18 +158,24 @@ h5 {
 
 /* Your code starts here! */
 
+h2 {
+	font-size: 2em;
+}
+
 .container {
 	width: 1000px;
 	margin: 20px auto;
 }
-
+header {
+	position: fixed;
+	top:0;
+}
 header nav {
 	display: inline-block;
-	width: 800px;
+	position: absolute;
+	left: 400px;
 	vertical-align: top;
-	margin-top: 35px;
-	text-align: center;
-	z-index: 1;
+	margin-top: 17px;
 }
 
 header nav a {
@@ -182,9 +188,9 @@ header nav a {
 
 .logo {
 	margin-top: -35px;
-	position: relative;
+	position: absolute;
 	top: 30px;
-	right: -800px;
+	right: -450px;
 }
 
 .transform {
@@ -203,7 +209,6 @@ header nav a {
 
 nav {
 	overflow: hidden;
-	position: fixed;
 	top: 0;
 	width: 100%;
 
@@ -269,6 +274,13 @@ article section.section-bottom {
 	margin-left: auto;
 }
 
+#features, #about {
+	margin-left: 50px;}
+
+#services, #product, #vision {
+	margin-left: 30px
+}
+
 article section.section-bottom {
 	margin-top: 37px;
 	padding: 0 10px;
@@ -293,4 +305,18 @@ footer {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
+}
+
+
+/* Features CSS because I was too lazy to create a second css file */
+
+#kitty-ipsum-1, #kitty-ipsum-2, #kitty-ipsum-3, #kitty-ipsum-4 {
+	margin-top: 50px;
+}
+
+.cat-img {
+	display:block;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
 }
