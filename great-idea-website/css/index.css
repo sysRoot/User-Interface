@@ -162,9 +162,6 @@ h2 {
 	font-size: 2em;
 }
 
-h2, h3 {
-	font-family: 'Dancing Script', sans-serif;
-}
 
 .container {
 	width: 1000px;
@@ -316,6 +313,7 @@ footer {
 
 #kitty-ipsum-1, #kitty-ipsum-2, #kitty-ipsum-3, #kitty-ipsum-4 {
 	margin-top: 50px;
+	font-family: 'Dancing Script', sans-serif;
 }
 
 .cat-img {
